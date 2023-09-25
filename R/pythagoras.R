@@ -8,7 +8,7 @@
 #' @examples
 #' pythagorean_third_side(3, 4)  # Should return 5
 #'
-#' @export
+#@export
 pythagorean_third_side <- function(a= 0 , b = 0, c = 0) {
   # Check if all inputs are numeric
   if (!is.numeric(a) || !is.numeric(b) || !is.numeric(c)) {
@@ -34,13 +34,12 @@ pythagorean_third_side <- function(a= 0 , b = 0, c = 0) {
   }
   return(result)
 }
-#pythagorean_third_side(a = 3, b = 4)
 
 
 
 
 
-
+#@export
 custom_trimmed_mean <- function(x, s, l) {
   # Check if x has at least s + l + 1 values
   if (length(x) < s + l + 1) {
